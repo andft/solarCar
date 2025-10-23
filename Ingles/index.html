@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SolarToyCar</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <input type="checkbox" id="theme-toggle" />
+    <label for="theme-toggle" class="theme-icon" title="Toggle Theme">☀️</label>
+
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Solar Toy Car</h1>
+        <p>
+          This Project is a solar powered car that moves using only energy from
+          the sun. it was designed to show how renewable energy can produce
+          motion without using batteries or fuel.
+        </p>
+        <a href="#technologies" class="btn-primary">Learn More</a>
+      </div>
+      <div class="hero-img">
+        <div class="img-placeholder">
+          <img
+            src="./img/3.png"
+            alt="Main Solar Toy Car"
+            style="
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 16px;
+            "
+          />
+        </div>
+      </div>
+    </header>
+
+    <section class="info">
+      <div class="info-box vision">
+        <video
+          src="./video/presentation.mp4"
+          alt="Vision"
+          class="img-placeholder video"
+        ></video>
+        <h2>🌱 What is it?</h2>
+        <p>
+          A solar car is a small vehicle that runs directly on solar energy. The
+          sunlight is captured by solar panel, converted into electricity, and
+          used to power a motor that makes the car move.
+        </p>
+      </div>
+      <div class="info-box mission">
+        <video
+          src="./video/car.mp4"
+          alt="Mission"
+          class="img-placeholder video"
+        ></video>
+        <h2>🚗 How it works</h2>
+        <p>
+          When sunlight reaches the solar panel, it produce electric energy.
+          That energy flows through the wires to the electric motor, which turns
+          the gears connected to the wheels, making the car move forward. The
+          car only works when it receives enough direct sunlight.
+        </p>
+      </div>
+    </section>
+
+    <section class="behind">
+      <h2>🔧 Behind the Project</h2>
+      <div class="personas">
+        <div class="name">
+          <img
+            src="./img/personas/erika.jpg"
+            alt="Team"
+            class="img-placeholder personas"
+          />
+          <h2>Erika</h2>
+        </div>
+        <div class="name">
+          <img
+            src="./img/personas/ferney.jpg"
+            alt="Team"
+            class="img-placeholder personas"
+          />
+          <h2>Ferney</h2>
+        </div>
+        <div class="name">
+          <img
+            src="./img/personas/laura.jpg"
+            alt="Team"
+            class="img-placeholder personas"
+          />
+          <h2>Laura</h2>
+        </div>
+        <div class="name">
+          <img
+            src="./img/personas/luis.jpg"
+            alt="Team"
+            class="img-placeholder personas"
+          />
+          <h2>Luis</h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="technologies" class="tech">
+      <h2>⚙️ Solar Toy Car Materials</h2>
+      <div class="tech-grid">
+        <div class="card">
+          <img
+            src="./img/8.png"
+            alt="Solar Panel"
+            class="img-placeholder small"
+          />
+          <h3>Wires</h3>
+          <p>
+            Electrical conductors that connect the solar panel to the motor.
+            They carry electric current. If the wires are reversed, the motor
+            turns in the opposite direction.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="./img/7.png"
+            alt="Aerodynamic Design"
+            class="img-placeholder small"
+          />
+          <h3>Gears</h3>
+          <p>
+            Small toothed wheels that transmit movement from the motor to the
+            wheels. The small gear from the motor turns the big gear, increasing
+            power and making the wheels spin.
+          </p>
+        </div>
+        <div class="card">
+          <img src="./img/6.png" alt="Storage" class="img-placeholder small" />
+          <h3>Electric motor</h3>
+          <p>
+            A device that changes electrical energy into movement. When it gets
+            electricity from the solar panel, it spins and move the gears.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="./img/4.png"
+            alt="Sensors and Control"
+            class="img-placeholder small"
+          />
+          <h3>Solar panel</h3>
+          <p>
+            A plate that converts sunlight into electricity. When it receives
+            sunlight, it produces electric current that powers the motor.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>© 2025 SolarToyCar – Playing towards a brighter world.</p>
+        <form class="subscribe">
+          <input type="email" placeholder="Your email address" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
