@@ -160,8 +160,8 @@ body {
 }
 
 .img-placeholder.personas {
-    width: 300px;
-    height: 350px;}
+    width: 250px;
+    height: 300px;}
 
 .img-placeholder:hover {
     border-style: solid;
@@ -425,4 +425,5 @@ footer {
         height: 50px;
         font-size: 1.7em;
     }
+
 }
